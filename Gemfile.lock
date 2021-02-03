@@ -56,12 +56,13 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    airvisual_api (0.1.0)
+    airvisual_api (0.1.1)
       httparty
     bootsnap (1.7.0)
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
+    coderay (1.1.3)
     concurrent-ruby (1.1.8)
     crass (1.0.6)
     diff-lcs (1.4.4)
@@ -98,6 +99,9 @@ GEM
     nokogiri (1.11.1)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     puma (4.3.7)
       nio4r (~> 2.0)
     racc (1.5.2)
@@ -180,6 +184,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   listen (~> 3.2)
+  pry
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
   rspec-rails
