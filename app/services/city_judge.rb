@@ -18,6 +18,12 @@ class CityJudge
     @ip = ip
   end
 
+  # When it comes to service objects, I'm very particular.
+  # I do not really like the `.call` PORO pattern as
+  # I believe it causes bloat and can be vague if not
+  # policed closely. I could go on for hours about this,
+  # but it would all be my personal preference when
+  # working on my own stuff. Every team does things differently.
   def comparison_data
     {
       local_air_data: pollution_data(full_local_data),

@@ -1,24 +1,9 @@
-# README
+# REALLY SIMPLE app for comparing city pollution rates
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Usage
 
-Things you may want to cover:
+There's only one endpoint that utilizes a gem I wrote.
 
-* Ruby version
+URL: https://air-compare-ferg.herokuapp.com/
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`get /comparisons`
