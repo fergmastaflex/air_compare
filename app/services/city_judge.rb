@@ -53,8 +53,8 @@ private
     @full_major_city_data ||= begin
       # Picks a random city from the list that is not the user's.
       # Originally this iterated through each city, but that was
-      # obviously hitting rate limits. Future iterations could allow
-      # the user to pick from a list, but I'm only making
+      # obviously hitting rate limits (facepalm.gif). Future iterations
+      # could allow the user to pick from a list, but I'm only making
       # a simple prototype API for now.
       city, state = MAJOR_CITIES.to_a.reject do |city|
         city.include?(full_local_data['city'])
